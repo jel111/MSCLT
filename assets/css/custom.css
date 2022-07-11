@@ -1,0 +1,32 @@
+.feather-10 {
+    width: 10px;
+    height: 10px;
+}
+.feather-24 {
+    width: 24px;
+    height: 24px;
+}
+.feather-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.twit-color {
+    color: #49A9E6;
+}
+
+.insta-color { 
+    background: #d6249f; 
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); 
+}
+.dot {
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    border-radius: 25%;
+    display: inline-block;
+  }
+  
+.fb-color {
+    color: #405891;
+}
