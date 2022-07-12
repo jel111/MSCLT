@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="assets/css/starter.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="container-fluid">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <span class="fs-4"> <img src="assets/img/blue-full-logo-tagline.png" class="card-img-top"
+                        alt="logo"></span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item fs-4" ><a style="color: #110FB5;" href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item fs-4" ><a style="color: #110FB5;" href="#" class="nav-link">Our Space</a></li>
+                <li class="nav-item fs-4" ><a style="color: #110FB5;" href="#" class="nav-link">Who We Are</a></li>
+                <li class="nav-item fs-4" ><a style="color: #110FB5;" href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item fs-4" ><a style="color: #110FB5;" href="#" class="nav-link">Support Us</a></li>
+            </ul>
+        </header>
+    </div>
+    <!--Section: Contact v.2-->
+    <div class="container bg-warning p-5">
+        <section class="mb-4">
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+            <!--Section description-->
+            <p class="text-center fs-5">Members of the MakerSpace communicate, share ideas, and
+                collaboratively plan events using the Slack protocol.
+                <br />If you have any questions, comments, suggestions, or
+                inquiries, please contact us using the form below
+            </p>
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+                <div class="col-md-3 text-center bg-light pt-4">
+                    <ul class="list-unstyled mb-0">
+                        <span class="fw-bold text-success">Contact Info:</span>
+                        <li></i>
+                            <p>900 Presely Rd. Charlotte, NC 29217, USA</p>
+                        </li>
+                        <li>
+                            <p>704-353-3300.</p>
+                        </li>
+                        <li>
+                            <p>contact@makerspaceclt.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+    </div>
+    </section>
+    <!--Section: Contact v.2-->
+<!-- Footer -->
+<div class="container-fluid bg-dark mt-5">
+    <footer class="py-5 border-top">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5 style="color: white;">Quick Links</h5>
+          <ul class="nav flex-column" style="color: white;">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;" >Support Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;" >Membership</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;" >Hours and Directions</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;" >Who We Are</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: white;">Calendar</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-2 mb-3">
+          <form>
+            <h5 style="color: white;">Subscribe to our newsletter</h5>
+            <p style="color: white;">Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2" >
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-3  border-top">
+        <p style="color: white;">© 2022 MakerSpaceCLT. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li><i class="dot insta-color feather-48" data-feather="instagram"></i></i></li>
+          <li><i class="fb-color feather-48" data-feather="facebook"></i></i></li>
+          <li><i class="twit-color feather-48" data-feather="twitter"></i></i></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script type="module" src="assets/js/starter.js"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+
+</html>
